@@ -2,6 +2,12 @@
 
 A complete full-stack portfolio application built with React, TailwindCSS, Node.js, Express, and MongoDB.
 
+## Developer Profile
+
+- **Name**: Gyasuddin Ansari
+- **Portfolio**: https://gyasu-portfolio.netlify.app/
+- **LinkedIn**: https://www.linkedin.com/in/gyasuddin-ansari-199b9b2b5/
+
 ## Features
 
 ### Public Portfolio
