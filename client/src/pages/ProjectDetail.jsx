@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Github, ExternalLink, ArrowLeft, Calendar, Tag } from 'lucide-react';
+import { ExternalLink, ArrowLeft, Calendar, Tag } from 'lucide-react';
+import { FaGithub } from "react-icons/fa6";
+
 import { motion } from 'framer-motion';
 import api from '../utils/api';
 import LoadingSpinner from '../components/ui/LoadingSpinner';
@@ -170,7 +172,7 @@ const ProjectDetail = () => {
                   rel="noopener noreferrer"
                   className="btn-secondary inline-flex items-center justify-center"
                 >
-                  <Github size={20} className="mr-2" />
+                  <FaGithub size={20} className="mr-2" />
                   View Source Code
                 </a>
               )}

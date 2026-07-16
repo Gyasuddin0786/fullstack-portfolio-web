@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Download, Github, Linkedin, Twitter, Mail, ArrowRight, Code, Palette, Database, Globe, User, MessageSquare, Send } from 'lucide-react';
+import { Download, Mail, ArrowRight, Code, Palette, Database, Globe, User, MessageSquare, Send } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaXTwitter, FaGlobe } from "react-icons/fa6";
 import { motion } from 'framer-motion';
 import api from '../utils/api';
 import ProjectCard from '../components/ui/ProjectCard';
@@ -125,7 +126,7 @@ const Home = () => {
                 className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-300"
                 whileHover={{ scale: 1.2, y: -2 }}
               >
-                <Github size={24} />
+                <FaGithub size={24} />
               </motion.a>
               <motion.a 
                 href="https://www.linkedin.com/in/gyasuddin-ansari-199b9b2b5/" 
@@ -134,7 +135,7 @@ const Home = () => {
                 className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-300"
                 whileHover={{ scale: 1.2, y: -2 }}
               >
-                <Linkedin size={24} />
+                <FaLinkedin size={24} />
               </motion.a>
               <motion.a 
                 href="https://x.com/GyasuddinA2081" 
@@ -143,7 +144,7 @@ const Home = () => {
                 className="text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors duration-300"
                 whileHover={{ scale: 1.2, y: -2 }}
               >
-                <Twitter size={24} />
+                <FaTwitter size={24} />
               </motion.a>
             </div>
           </motion.div>

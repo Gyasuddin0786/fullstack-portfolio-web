@@ -1,4 +1,6 @@
-import { Github, ExternalLink, Eye } from 'lucide-react';
+import { ExternalLink, Eye } from 'lucide-react';
+import { FaGithub} from "react-icons/fa6";
+
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
@@ -28,7 +30,7 @@ const ProjectCard = ({ project }) => {
                 rel="noopener noreferrer"
                 className="bg-white text-gray-900 p-2 rounded-full hover:bg-gray-100 transition-colors duration-200"
               >
-                <Github size={20} />
+                <FaGithub size={20} />
               </a>
             )}
             {liveUrl && (
