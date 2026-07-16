@@ -83,7 +83,7 @@ const ProjectCard = ({ project }) => {
               rel="noopener noreferrer"
               className="p-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200"
             >
-              <Github size={20} />
+              <FaGithub size={20} />
             </a>
           )}
           {liveUrl && (
