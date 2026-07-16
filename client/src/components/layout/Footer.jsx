@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaXTwitter, FaGlobe } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa6";
 import { Heart } from "lucide-react";
 import { useState, useEffect } from 'react';
 import api from '../../utils/api';
@@ -54,7 +54,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
               >
-                <FaXTwitter size={24} />
+                <FaTwitter size={24} />
               </a>
             </div>
           </div>
