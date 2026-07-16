@@ -1,4 +1,10 @@
-import { Github, Linkedin, Twitter, Globe, Heart } from 'lucide-react';
+import {
+  GithubIcon,
+  Linkedin,
+  Twitter,
+  Globe,
+  Heart,
+} from "lucide-react";
 import { useState, useEffect } from 'react';
 import api from '../../utils/api';
 
@@ -37,7 +43,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-200"
               >
-                <Github size={24} />
+                <GithubIcon size={24} />
               </a>
               <a
                 href="https://www.linkedin.com/in/gyasuddin-ansari-199b9b2b5/"
