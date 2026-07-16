@@ -120,7 +120,7 @@ const Login = () => {
 
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Demo credentials: gyasuddin123@gmail.com / password123
+              Demo credentials: gyasuddina265@gmail.com / password: Gyasuddin@123
             </p>
           </div>
         </div>
