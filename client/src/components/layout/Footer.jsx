@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
 import { Heart } from "lucide-react";
 import { useState, useEffect } from 'react';
 import api from '../../utils/api';

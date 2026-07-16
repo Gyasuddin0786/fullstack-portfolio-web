@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Download, Mail, ArrowRight, Code, Palette, Database, Globe, User, MessageSquare, Send } from 'lucide-react';
-import { FaGithub, FaLinkedin, FaXTwitter, FaGlobe } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import api from '../utils/api';
 import ProjectCard from '../components/ui/ProjectCard';
@@ -300,7 +300,7 @@ const Home = () => {
                     
                     <motion.div whileHover={{ scale: 1.05 }} className="flex items-center space-x-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 transition-all duration-300">
                       <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
-                        <Github className="w-6 h-6 text-white" />
+                        <FaGithub className="w-6 h-6 text-white" />
                       </div>
                       <div>
                         <h4 className="font-semibold text-white">GitHub</h4>
@@ -310,7 +310,7 @@ const Home = () => {
                     
                     <motion.div whileHover={{ scale: 1.05 }} className="flex items-center space-x-4 p-4 rounded-2xl bg-white/5 hover:bg-white/10 transition-all duration-300">
                       <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-red-500 rounded-full flex items-center justify-center">
-                        <Linkedin className="w-6 h-6 text-white" />
+                        <FaLinkedin className="w-6 h-6 text-white" />
                       </div>
                       <div>
                         <h4 className="font-semibold text-white">LinkedIn</h4>

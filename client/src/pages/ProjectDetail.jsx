@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ExternalLink, ArrowLeft, Calendar, Tag } from 'lucide-react';
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 import { motion } from 'framer-motion';
 import api from '../utils/api';
